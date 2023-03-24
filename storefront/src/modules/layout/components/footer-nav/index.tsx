@@ -45,6 +45,15 @@ const FooterNav = () => {
               </li>
               <li>
                 <a
+                  href="https://github.com/MG-Musty"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Official GitHub
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://docs.medusajs.com"
                   target="_blank"
                   rel="noreferrer"
@@ -67,7 +76,7 @@ const FooterNav = () => {
       </div>
       <div className="flex flex-col-reverse gap-y-4 justify-center xsmall:items-center xsmall:flex-row xsmall:items-end xsmall:justify-between">
         <span className="text-xsmall-regular text-gray-500">
-          © Copyright 2022 MG FOODS AND MARKET STORE
+          © Copyright 2023 MG FOODS AND MARKET STORE
         </span>
         <div className="min-w-[316px] flex xsmall:justify-end">
           <CountrySelect />
